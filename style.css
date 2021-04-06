@@ -1,0 +1,65 @@
+
+h3{
+    font-size: 24px;
+    line-height: 24px;
+}
+h3 a{
+    color: black;
+    text-decoration: none;
+}
+h3 a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+
+header{
+    background-color: #f72210;
+}
+.base-hover{
+    color: black;
+}
+.base-hover:hover{
+    color: #f72210;
+}
+
+.white{
+    color: white;
+    font-weight: bold;
+}
+
+nav{
+    text-transform: uppercase;
+    
+}
+nav ul li a{
+    font-size: 16px;
+}
+
+.grey-nav li a{
+    color: grey;
+}
+
+#trending{
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.block-title{
+    text-transform: uppercase;
+    color: rgba(3,3,3,.4);
+}
+
+.category{
+    background-color: rgba(255,255,255,.9);
+    color: #f72210;
+}
+
+/* 
+div.col-md-6{
+    background-color: navy;
+}
+div.col-md-3{
+    background-color: goldenrod;
+}
+ */
