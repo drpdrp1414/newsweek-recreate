@@ -1,4 +1,9 @@
 
+.clear{
+    text-decoration: none;
+    color: black;
+}
+
 h3{
     font-size: 24px;
     line-height: 24px;
@@ -46,6 +51,7 @@ nav ul li a{
 }
 
 .block-title{
+    text-decoration: none;
     text-transform: uppercase;
     color: rgba(3,3,3,.4);
 }
@@ -67,6 +73,40 @@ nav ul li a{
 }
 .sub-head-link{
     text-decoration: none;
+}
+.more-title{
+    font-size: 17px;
+    line-height: 17px;
+}
+.more-item{
+    border-top: 1px solid rgb(179, 179, 179);
+}
+.more-title a{
+    font-size: 15px;
+    font-weight: bold;
+}
+.more-title a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+.more-body{
+    font-size: 14px;
+}
+.headshot{
+    flex: 0 0 64px;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background-image: url(img/face-1.webp);
+}
+.debate{
+    border-top: 4px solid #d9d9d9;
+    border-bottom: 4px solid #d9d9d9;
+}
+
+.op-piece{
+    border-bottom: 1px solid #ddd;
 }
 
 /* 
